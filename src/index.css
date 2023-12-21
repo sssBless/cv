@@ -1,0 +1,80 @@
+body {
+  font-size: 1.1vw;
+  font-family: Avantgarde, 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+h1 {
+  font-size: 1.4em;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+.wrapper {
+  display: flex;
+  padding: 0.5rem;
+}
+.left-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+}
+.main-info h1 {
+  margin: 0 0 0.8rem 0;
+  padding: 0;
+  font-size: 1.8em;
+  color: rgb(0, 168, 168);
+}
+.main-info p {
+  margin: 0 0 0.8rem 0;
+  padding: 0;
+}
+.contacts-list,
+.projects-list {
+  list-style: none;
+  padding: 0;
+}
+.telegram {
+  width: 1rem;
+}
+.github,
+.telegram {
+  display: flex;
+  align-items: center;
+  color: gray;
+  gap: 0.5rem;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.skill {
+  background-color: rgb(0, 168, 168);
+  color: white;
+  padding: 0.3rem;
+  border-radius: 0.25rem;
+}
+.gif-represent {
+  width: 12rem;
+  height: 7rem;
+}
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.project span {
+  margin: 0 0 0 2rem;
+}
+.project span a {
+  padding: 0;
+  margin: 0;
+}
+.trees img {
+  width: 12rem;
+  height: 7rem;
+}
+
+.letter {
+  width: 80%;
+  margin: 0 auto;
+}
